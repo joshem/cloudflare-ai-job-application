@@ -1,0 +1,9 @@
+{
+  "name": "ai-chat-go",
+  "main": "./build/worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "build": { "command": "make build" },
+  "assets": { "directory": "./public" },
+  "kv_namespaces": [{ "binding": "CHAT_KV", "id": "<your-kv-id>" }],
+  "vars": { "CF_ACCOUNT_ID": "<your-id-here>" }
+}
